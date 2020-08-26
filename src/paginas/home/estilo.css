@@ -16,12 +16,13 @@ body{
 }
 
 .container{
-	width: 100vw;
+	width: 95vw;
 	
 	display: block;
+	/*
 	margin-left: 25px;
-	/*margin-top: 10px;height: 100vw;*/
-	margin-right: 25px; 
+	/*margin-top: 10px;height: 100vw;
+	margin-right: 25px;*/ 
 	
 
 }
@@ -32,7 +33,7 @@ body{
 nav	{
 	position: relative;
 	display: flex;
-	margin-left: 450px;
+	margin-left: 400px;
 	margin-top: 10px;
 }
 
@@ -82,7 +83,8 @@ header #header-logo img{
 
 
 /*===============corpro======================*/
-.corpo{
+ .corpo{
+	
 	width: 100%;
 	height: 650px;
 	background: rgba(148,0,211 , 0.3);
@@ -178,6 +180,15 @@ header #header-logo img{
 /*==================roda pe=====================*/
 .incones{
 	margin-top: 20px
+
+}
+
+.face {
+	margin-top: 10px;
+
+}
+.lin{
+	margin-top: -10px;
 
 }
 
